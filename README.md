@@ -46,7 +46,7 @@ following:
     replace all the `WIP: ` comments with a collective set of comments on what
     was done.
 * When you push your changes up, if you have rewritten history locally, so that
-    local and remote are different, you will have to forcepush your changes. On
+    local and remote are different, you will have to force push your changes. On
     short lived feature branches this is inconsequential, because the only
     remote changes are ones that you pushed on your branch.
 * If your branch has any git hooks, like a pre-push hook, do not skip those
