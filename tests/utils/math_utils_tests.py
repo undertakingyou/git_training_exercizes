@@ -19,5 +19,10 @@ class MyTestCase(unittest.TestCase):
         results = math_utils.divide(8, 2)
         self.assertEqual(results, 4)
 
+    def test_double(self):
+        results = math_utils.double(2)
+        self.assertEqual(results, 4)
+
+
 if __name__ == '__main__':
     unittest.main()
