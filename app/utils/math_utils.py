@@ -1,4 +1,6 @@
 # Math Utilities file. Created by Will Smith 2023-07-07
+import math
+
 
 def add(a: int, b: int) -> int:
     return a + b
@@ -17,3 +19,6 @@ def double(a: int) -> int:
 
 def square(a: int) -> int:
     return a * a
+
+def square_root(a: int) -> int:
+    return math.sqrt(a)
