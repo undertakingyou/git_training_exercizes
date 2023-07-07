@@ -27,5 +27,9 @@ class MyTestCase(unittest.TestCase):
         results = math_utils.square(3)
         self.assertEqual(results, 9)
 
+    def test_square_root(self):
+        results = math_utils.square_root(16)
+        seld.assertEqual(results, 4)
+
 if __name__ == '__main__':
     unittest.main()
