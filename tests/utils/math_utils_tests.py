@@ -31,5 +31,10 @@ class MyTestCase(unittest.TestCase):
         results = math_utils.square_root(16)
         seld.assertEqual(results, 4)
 
+    def test_power_of(self):
+        results = math_utils.power_of(2, 3)
+        self.assertEqual(results, 8)
+
+
 if __name__ == '__main__':
     unittest.main()
