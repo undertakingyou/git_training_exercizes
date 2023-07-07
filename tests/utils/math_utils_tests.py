@@ -7,6 +7,9 @@ class MyTestCase(unittest.TestCase):
         results = math_utils.add(1, 4)
         self.assertEqual(results, 5)
 
+    def test_subtract(self):
+        results = math_utils.subtract(4, 1)
+        self.assertEqual(results, 3)
 
 if __name__ == '__main__':
     unittest.main()
