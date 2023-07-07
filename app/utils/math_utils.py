@@ -22,3 +22,6 @@ def square(a: int) -> int:
 
 def square_root(a: int) -> int:
     return math.sqrt(a)
+
+def power_of(a: int, b: int) -> int:
+    return a ** b
