@@ -11,5 +11,9 @@ class MyTestCase(unittest.TestCase):
         results = math_utils.subtract(4, 1)
         self.assertEqual(results, 3)
 
+    def test_multiply(self):
+        results = math_utils.multiply(4, 3)
+        self.assertEqual(results, 12)
+
 if __name__ == '__main__':
     unittest.main()
