@@ -11,3 +11,9 @@ def multiply(a: int, b: int) -> int:
 
 def divide(a: int, b: int) -> int:
     return a / b
+
+def double(a: int) -> int:
+    return a * 2
+
+def square(a: int) -> int:
+    return a * a
